@@ -19,5 +19,3 @@ def featureNormalize(X):
     mu_matrix = np.ones((m, 1)) * mu
     sigma_matrix = np.ones((m, 1)) * sigma
     return X_norm
-
-print("Hello World")
